@@ -7,7 +7,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue?logo=postgresql)](https://postgresql.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-🔗 [Демо (если есть)](https://...) | 📄 [API Docs](https://.../docs)
+🔗 [Демо](https://...) | 📄 [API Docs](https://.../docs)
 
 ---
 
@@ -15,7 +15,6 @@
 - 🔐 Авторизация через JWT + refresh-токены
 - 🗄 Миграции БД через Alembic
 - 🔄 CRUD для сущностей User, Department, Task
-- 🧪 Базовые тесты на Pytest (опционально, но сильно плюсует)
 
 ## 🛠 Стек
 | Категория | Технологии |
@@ -23,7 +22,7 @@
 | Backend | FastAPI, SQLAlchemy (async), Alembic, Pydantic |
 | Database | PostgreSQL (через aiosqlite для демо) |
 | Auth | JWT, password hashing (bcrypt) |
-| DevOps | Poetry, .env, Dockerfile (опционально) |
+| DevOps | Poetry, .env|
 | Testing | Pytest, httpx |
 
 ## 🚀 Как запустить локально
